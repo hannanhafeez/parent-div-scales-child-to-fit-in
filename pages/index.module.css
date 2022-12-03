@@ -1,0 +1,18 @@
+.parent {
+	@apply h-[100vh] w-[100vw] flex items-center justify-center bg-blue-200;
+	transition: transform 300ms;
+}
+
+.child {
+	@apply bg-red-400 min-w-[1191px] h-auto aspect-[0.7072446556];
+	transition: transform 300ms;
+}
+
+.child_ls {
+	@apply bg-red-400 min-h-[1191px] w-auto aspect-[1/0.7072446556];
+	transition: transform 300ms;
+}
+
+.parent>button {
+	@apply absolute right-10 bottom-10;
+}
