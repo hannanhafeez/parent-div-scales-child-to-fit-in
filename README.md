@@ -1,56 +1,5 @@
-# Next.js
+# Parent element scales and fits child element (React)
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a React/Next.js demo project which shows how you can scale child element in parent to fit vertically or horizontally. The resize happens on windo resize event. 
 
-[Configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) has been added to optimize it for [CodeSandbox](https://codesandbox.io/p/dashboard).
-
-[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/codesandbox/codesandbox-template-next.js)
-
-## Resources
-
-- [CodeSandbox Projects — Docs](https://codesandbox.io/docs/projects)
-- [CodeSandbox — Discord](https://discord.gg/Ggarp3pX5H)
-- [Next.js — GitHub](https://github.com/vercel/next.js/)
-- [Next.js — Docs](https://nextjs.org/docs)
-# Next.js
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-[Configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) has been added to optimize it for [CodeSandbox](https://codesandbox.io/p/dashboard).
-
-[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/codesandbox/codesandbox-template-next.js)
-
-## Resources
-
-- [CodeSandbox Projects — Docs](https://codesandbox.io/docs/projects)
-- [CodeSandbox — Discord](https://discord.gg/Ggarp3pX5H)
-- [Next.js — GitHub](https://github.com/vercel/next.js/)
-- [Next.js — Docs](https://nextjs.org/docs)
-# Next.js
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-[Configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) has been added to optimize it for [CodeSandbox](https://codesandbox.io/p/dashboard).
-
-[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/codesandbox/codesandbox-template-next.js)
-
-## Resources
-
-- [CodeSandbox Projects — Docs](https://codesandbox.io/docs/projects)
-- [CodeSandbox — Discord](https://discord.gg/Ggarp3pX5H)
-- [Next.js — GitHub](https://github.com/vercel/next.js/)
-- [Next.js — Docs](https://nextjs.org/docs)
-# Next.js
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-[Configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) has been added to optimize it for [CodeSandbox](https://codesandbox.io/p/dashboard).
-
-[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/codesandbox/codesandbox-template-next.js)
-
-## Resources
-
-- [CodeSandbox Projects — Docs](https://codesandbox.io/docs/projects)
-- [CodeSandbox — Discord](https://discord.gg/Ggarp3pX5H)
-- [Next.js — GitHub](https://github.com/vercel/next.js/)
-- [Next.js — Docs](https://nextjs.org/docs)
+Refer [`page/index.tsx`](https://github.com/hannanhafeez/parent-div-scales-child-to-fit-in/blob/master/pages/index.tsx) and [`page/index.module.css`](https://github.com/hannanhafeez/parent-div-scales-child-to-fit-in/blob/master/pages/index.module.css) to see parent and child styles and [`hooks/useChildScaleToFirParent.ts`](https://github.com/hannanhafeez/parent-div-scales-child-to-fit-in/blob/master/hooks/useChildScaleToFitParent.ts) to understand the logic of scaling for different orientaion combinations for both parent and child.
